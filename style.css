@@ -184,4 +184,7 @@ a{
   .form-container{
     padding: 20px;
   }
+  .btn-group{
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
