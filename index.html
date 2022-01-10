@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=`">
+  <link rel="stylesheet" href="style.css">
+  <title>Industry Form</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src='images/wobot-logo_blue.png' alt="">
+    </div>
+    <div class="rotate-div"></div>
+    <div class="form-container">
+      <div class="rectangle">
+        <div class="rectangle-1"></div>
+        <div class="rectangle-2" v></div>
+        <div class="rectangle-3"></div>
+      </div>
+      <div class="heading">
+        <h3>It’s a delight to have you onboard</h3>
+        <p>Help us know you better.
+          (This is how we optimize Wobot as per your business needs)</p>
+      </div>
+      <form onsubmit="return false">
+        <div class="form-group">
+          <label for="company-name">Company Name</label>
+          <input type="text" placeholder="e.g Example lnc">
+        </div>
+        <div class="form-group">
+          <label for="Industry">Industry</label>
+          <input type="text" list="list" placeholder="Select" />
+          <datalist id="list">
+            <option value="Software">
+            <option value="Hardware">
+            <option value="Cloud Service">
+            <option value="E-Commerce">
+            <option value="Telecom">
+            <option value="Robotic">
+          </datalist>
+        </div>
+        <div class="form-group btn-group">
+          <button>1-20</button>
+          <button>21-50</button>
+          <button>51-200</button>
+          <button>201-500</button>
+          <button>500+</button>
+        </div>
+        <button class="submit-btn">Get Started</button>
+      </form>
+    </div>
+    <p class="footer"><a href="">Terms of use</a> | <a href="">Privacy policy</a> </p>
+  </div>
+</body>
+
+</html>
